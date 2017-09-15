@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Import;
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args); 
         System.out.println("Spring-boot-quartz-demo start successful.");
     }
 }
